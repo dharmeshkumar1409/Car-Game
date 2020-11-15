@@ -16,7 +16,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(700, 550);
+    createCanvas(windowWidth, windowHeight);
 
     road = createSprite(420, 300, 20, 20);
     road.addImage(roadImage);
